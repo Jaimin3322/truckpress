@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TruckPress</title>
+
+    <!-- Fav Start -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="manifest" href="images/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom css -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header id='header'>
+        <section class="top-header back-blue">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="t-left">
+                            <a href="javascript:void(0);"
+                                class="f-robo fw-black d-xl-block d-lg-none d-md-none d-sm-none d-none">Theme
+                                Documentation</a>
+                            <a href="javascript:void(0);"
+                                class="f-robo fw-black d-xl-block d-lg-block d-md-block d-sm-none d-none">Buy Now</a>
+                            <a href="javascript:void(0);" class="f-robo fw-black text-truncate">
+                                <span class="badge back-light-yellow c-blue text-capitalize py-1 px-2">promo</span>
+                                0% Off Only This Month!
+                                <span class="c-light-yellow">Read More...</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="t-right">
+                            <a href="javascript:void(0);"
+                                class="f-robo fw-black d-xl-block d-lg-none d-md-none d-sm-none d-none">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                Mon - Sat : 09.00 - 20.00
+                            </a>
+                            <a href="tel:04223457890;"
+                                class="f-robo fw-black d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                (0422)-3457890
+                            </a>
+                            <a href="mailto:admin@truckpress.com" class="f-robo fw-black text-truncate">
+                                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                                admin@truckpress.com
+                            </a>
+                            <div class="social d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                                <a href="javascripr:void(0);" class="f-robo fw-black px-2">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="javascripr:void(0);" class="f-robo fw-black px-2">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="javascripr:void(0);" class="f-robo fw-black px-2">
+                                    <i class="fa fa-tumblr" aria-hidden="true"></i>
+                                </a>
+                                <a href="javascripr:void(0);" class="f-robo fw-black px-2">
+                                    <i class="fa fa-wordpress" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg back-trans navbar-dark px-0">
+                    <a class="navbar-brand py-0" href="#">
+                        <img src="images/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                    <button type="button" data-toggle="modal" data-target="#search-modal"
+                        class="btn ml-auto mr-3 d-xl-none d-lg-block">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <button type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true"
+                        class="navbar-toggler px-2 back-dark-blue">
+                        <span class="navbar-toggler-icon back-dark-blue"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Location</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="aboutus.html" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About Us
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="aboutus.html">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    News
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Contact
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#search-modal">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <button type="button" class="btn">Request a Rate</button>
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="about-us-bc back-light-grey py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center">
+                        <h2 class="c-light-black text-capitalize font-weight-bold f-robo mb-0">
+                            About Us
+                        </h2>
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-content-end">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb p-0 m-0 back-trans">
+                                <li class="breadcrumb-item">
+                                    <a href="#" class="f-14 font-weight-bold f-robo c-light-black">Truckpress</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    <a href="#" class="f-14 font-weight-bold f-robo c-light-black">About Us Basic</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Know-About py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="f-robo fw-black text-uppercase pb-2 mb-0 text-left caret-bottom-left">Know About
+                            TruckPress</h2>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <p class="">In 1978, we laid out our goals for the sed future in our Strategy 2015,
+                                    including our vision and mission for our company. Our vision emphasizes that the we
+                                    want to be The Logistics Company the world this is goes beyond the simple fact that,
+                                    as soon global company, we are over 220 countries.</p>
+                                <p class="">Our vision stresses that we want to be ut the logistics provider people turn
+                                    to their first choice not only for all their shipping needs, but also as an employee
+                                    or cargo investor. We are deeply proud of the sed contribution we can we make in our
+                                    daily work. Everything that is moved from one place to another.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="">We strongly believe that pursuing all of these goals is in our interest and
+                                    in the interest of all of our stakeholders are us customers, employees, investors
+                                    and the planet as a whole. We add value to cargo people’s interaction with us,
+                                    whether ut with excellent services or products, by engaging our employees and
+                                    nurturing their talents, or by being a solid, cargo long-term investment on the
+                                    stock holds market we show concern.</p>
+                                <p class="">That provider people turn to – their first choice not only for all their
+                                    shipping the needs, but also as an logistic employee investor. We are deeply proud
+                                    of the sed contribution we can make.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="row mt-5">
+                            <div class="col-6 border">
+                                <a href="javascript:void(0);" class="d-flex py-4">
+                                    <div class="media align-items-center">
+                                        <img class="mr-4" src="images/about-img-1.png" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <h5 class="c-black mt-0 f-robo font-weight-bold text-capitalize mb-3">
+                                                Air Frieght
+                                            </h5>
+                                            <p class="">Air freight parcel delivery is the transfer.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 border">
+                                <a href="javascript:void(0);" class="d-flex py-4">
+                                    <div class="media align-items-center">
+                                        <img class="mr-4" src="images/about-img-2.png" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <h5 class="c-black mt-0 f-robo font-weight-bold text-capitalize mb-3">
+                                                Sea Frieght
+                                            </h5>
+                                            <p class="">Sea freight is one of the transportation.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="counter" class="back-light-yellow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="media py-5">
+                            <div class="media-body pl-3">
+                                <h2 class="mt-0 f-robo font-weight-bold c-blue counter-value plus" data-count="50000">50000 +                                    
+                                </h2>
+                                <p class="c-black f-14 f-open">Passionate Employee</p>
+                            </div>
+                            <img src="images/counter-img-1.png" alt="Generic placeholder image"
+                                class="align-self-center pr-3 img-fluid pl-3">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="media py-5">
+                            <div class="media-body pl-3">
+                                <h2 class="mt-0 f-robo font-weight-bold c-blue counter-value plus" data-count="700">700+</h2>
+                                <p class="c-black f-14 f-open">Offices in Worldwide</p>
+                            </div>
+                            <img src="images/counter-img-2.png" alt="Generic placeholder image"
+                                class="align-self-center pr-3 img-fluid pl-3">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="media py-5">
+                            <div class="media-body pl-3">
+                                <h2 class="mt-0 f-robo font-weight-bold c-blue counter-value plus" data-count="2450">2450 +
+                                </h2>
+                                <p class="c-black f-14 f-open">Modern Cargo Trucks</p>
+                            </div>
+                            <img src="images/counter-img-3.png" alt="Generic placeholder image"
+                                class="align-self-center pr-3 img-fluid pl-3">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="media py-5">
+                            <div class="media-body pl-3">
+                                <h2 class="mt-0 f-robo font-weight-bold c-blue counter-value" data-count="468">
+                                    468 +
+                                </h2>
+                                <p class="c-black f-14 f-open">International Awards</p>
+                            </div>
+                            <img src="images/counter-img-4.png" alt="Generic placeholder image"
+                                class="align-self-center pr-3 img-fluid pl-3">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section id="cv-and-testi" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-xl-0 mb-lg-0 mb-md-3 mb-sm-3 mb-3">
+                        <h2 class="f-robo fw-black text-uppercase pb-2 mb-5">Some Company Values</h2>
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                                <div class="nav flex-xl-column flex-lg-column flex-md-column flex-sm-row flex-row nav-pills border nav-justified mb-xl-0 mb-lg-0 mb-md-0 mb-sm-4 mb-4" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <a class="nav-link active " id="v-pills-home-tab" data-toggle="pill"
+                                        href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                        aria-selected="true">
+                                        <i class="fa fa-university mr-2" aria-hidden="true"></i>
+                                        Innovative
+                                    </a>
+                                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                        href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                        aria-selected="false">
+                                        <i class="fa fa-thumbs-up mr-2" aria-hidden="true"></i>
+                                        Quality
+                                    </a>
+                                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
+                                        href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                        aria-selected="false">
+                                        <i class="fa fa-cubes mr-2" aria-hidden="true"></i>
+                                        Commitment
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5 class="c-light-black f-robo font-weight-bold">Innovative (To Think Before
+                                                    Acting)</h5>
+                                                <div class="">
+                                                    <label
+                                                        class="mr-3 mb-3 f-robo font-weight-bold c-white back-dark-blue f-30">
+                                                        W
+                                                    </label>
+                                                    <p class="">hether you are global or local, asset or sed
+                                                        non-asset based, move where shipments by air, ocean, ground or
+                                                        any logistics will be too combithis is easier said than done, as
+                                                        you have to manage us shipments, resources and
+                                                        documents.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Essentialy Unchaged
+                                                </p>
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Classical Literature
+                                                </p>
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Long Established
+                                                </p>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Pleasure Rationally
+                                                </p>
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Frequently Occur
+                                                </p>
+                                                <p class="text-truncate">
+                                                    <i class="fa fa-check-square mr-2 c-blue" aria-hidden="true"></i>
+                                                    Publishing Packages
+                                                </p>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="btn-group blue-btn mr-3">
+                                                    <button type="button"
+                                                        class="btn back-dark-blue f-robo c-white f-14 px-3 py-2">Read
+                                                        More</button>
+                                                    <button type="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false"
+                                                        class="f-14 back-dark-blue c-white btn dropdown-toggle">
+                                                        <span class="caret"></span>
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu px-3">
+                                                        <li><a href="#" class="f-14">Action</a></li>
+                                                        <li><a href="#" class="f-14">Another action</a></li>
+                                                        <li><a href="#" class="f-14">Another action</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab">...</div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                        aria-labelledby="v-pills-messages-tab">...</div>
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab">...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <h2 class="f-robo fw-black text-uppercase pb-2 mb-5">Testimonals</h2>
+                        <div class="owl-carousel-testi owl-theme">
+                            <div class="item">
+                                <div class="media">
+                                    <img class="mr-3 person" src="images/testi-circle.png" class="img-fluid"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="c-light-black f-robo font-weight-bold">Why We Choose Truckpress Road Frieght
+                                            Service</h5>
+                                        <p class="f-robo font-weight-bold c-light-black">John Christopher <span
+                                                class="fw-medium c-blue">(CEO &amp; Founder - ZoomTheme
+                                                ltd)</span>
+                                        </p>
+                                        <p class="c-blue mb-4">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="">Loves or pursues or desires to obtain pain of itself, because it is
+                                            pain, but because occasionally circumstances occur.</p>
+                                        <p class="mb-4">Desires to obtain pain of itself, because it is pain, but
+                                            because occasionally circumstances occur in which toil and pain can procure
+                                            him some great pleasure. </p>
+                                        <img src="images/signature.png" class="img-fluid signature" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="media">
+                                    <img class="mr-3 person" src="images/testi-circle.png" class="img-fluid"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="c-blue f-robo font-weight-bold">Why We Choose Truckpress Road Frieght
+                                            Service</h5>
+                                        <p class="f-robo font-weight-bold c-light-black">John Christopher <span
+                                                class="font-weight-normal c-blue">(CEO &amp; Founder - ZoomTheme
+                                                ltd)</span>
+                                        </p>
+                                        <p class="c-blue mb-4">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="">Loves or pursues or desires to obtain pain of itself, because it is
+                                            pain, but because occasionally circumstances occur.</p>
+                                        <p class="mb-4">Desires to obtain pain of itself, because it is pain, but
+                                            because occasionally circumstances occur in which toil and pain can procure
+                                            him some great pleasure. </p>
+                                        <img src="images/signature.png" class="img-fluid signature" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="media">
+                                    <img class="mr-3 person" src="images/testi-circle.png" class="img-fluid"
+                                        alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="c-blue f-robo font-weight-bold">Why We Choose Truckpress Road Frieght
+                                            Service</h5>
+                                        <p class="f-robo font-weight-bold c-light-black">John Christopher <span
+                                                class="font-weight-normal c-blue">(CEO &amp; Founder - ZoomTheme
+                                                ltd)</span>
+                                        </p>
+                                        <p class="c-blue mb-4">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </p>
+                                        <p class="">Loves or pursues or desires to obtain pain of itself, because it is
+                                            pain, but because occasionally circumstances occur.</p>
+                                        <p class="mb-4">Desires to obtain pain of itself, because it is pain, but
+                                            because occasionally circumstances occur in which toil and pain can procure
+                                            him some great pleasure. </p>
+                                        <img src="images/signature.png" class="img-fluid signature" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section id="meet-team" class="py-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 d-flex justify-content-center mb-5">
+                        <h2 class="f-robo fw-black text-uppercase pb-2 mb-3 text-center mb-3">Meet Our Dedicated Team</h2>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-xl-0 mb-lg-0 mb-md-3 mb-sm-3 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <img src="images/card-img.png" alt="Card image cap"
+                                class="img-fluid mb-3 card-img-top rounded-0">
+                            <div class="card-body p-0">
+                                <div class="team-card-heading pl-3">
+                                    <h5 class="card-title font-weight-bold c-black mb-1">Edward Doe</h5>
+                                    <p class="card-text font-italic c-blue fw-semi f-open mb-0">Managing Director
+                                    </p>
+                                </div>
+                                <div class="team-card-des pl-3 pt-3">
+                                    <p class="">Who loves or pursues or desires to obtain pain of ut itself, because it
+                                        is a pain, but it because occasionally circumstances occur in which toil and
+                                        pain can be get procure him some great pleasure.</p>
+                                </div>
+                                <div class="team-card-social pl-3">
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-xl-0 mb-lg-0 mb-md-3 mb-sm-3 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <img src="images/card-img.png" alt="Card image cap"
+                                class="img-fluid mb-3 card-img-top rounded-0">
+                            <div class="card-body p-0">
+                                <div class="team-card-heading pl-3">
+                                    <h5 class="card-title font-weight-bold c-black mb-1">Tom Robert</h5>
+                                    <p class="card-text font-italic c-blue fw-semi f-open mb-0">Human Resources </p>
+                                </div>
+                                <div class="team-card-des pl-3 pt-3">
+                                    <p class="">Pleasure rationally encounter it consequences that’s are extremely
+                                        painful. Nor again is there anyone who loves or pursues or desires to obtain
+                                        pain of itselfbut be a occasionally.</p>
+                                </div>
+                                <div class="team-card-social pl-3" style="">
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-xl-0 mb-lg-0 mb-md-3 mb-sm-3 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <img src="images/card-img.png" alt="Card image cap"
+                                class="img-fluid mb-3 card-img-top rounded-0">
+                            <div class="card-body p-0">
+                                <div class="team-card-heading pl-3">
+                                    <h5 class="card-title font-weight-bold c-black mb-1">Tim Caroll</h5>
+                                    <p class="card-text font-italic c-blue fw-semi f-open mb-0">Chef Accountant</p>
+                                </div>
+                                <div class="team-card-des pl-3 pt-3">
+                                    <p class="">Denounce with righteous indignation and dislike men who are so beguiled
+                                        and demoralized by the charms of pleasure of the moment, so blinded by desire,
+                                        that they cannot foresee the pain.</p>
+                                </div>
+                                <div class="team-card-social pl-3" style="">
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="javascripr:void(0);" class="c-blue mr-2">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section id="contact" class="contact-class">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 left py-xl-0 py-lg-0 py-md-3 py-sm-3 py-3">
+                        <div class="media">
+                            <i class="fa fa-phone f-30 mr-3 mt-1 c-blue" aria-hidden="true"></i>
+                            <div class="media-body">
+                                <h5 class="mt-0 f-robo fw-black text-uppercase mb-0 c-blue"> For Any Help or
+                                    queries
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12 py-xl-3 py-lg-3 py-md-2 py-sm-0 py-0 right">
+                        <div
+                            class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-between">
+                            <a href="javascript:void(0);"
+                                class="c-white f-18 f-robo font-weight-bold mb-xl-0 mb-lg-0 mb-md-0 mb-sm-3 mb-3">
+                                Call Us Now On
+                                <span class="c-light-yellow">0422-3457890</span>
+                            </a>
+                            <button type="button"
+                                class="btn back-white f-robo fw-black f-14 c-blue px-4 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-3 mb-3">Contact
+                                Sales
+                                Team</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+
+    <footer id="footer">
+        <section class="top-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <img src="images/footer_logo.png" class="img-fluid mt-1" alt="footer_logo">
+                        <p class="f-open my-4">
+                            Since 1890, when the business was founded in Germen, Australia, by Jeorge Vital Bin and
+                            Jeorge Binny Van, Truckpress has grown into one of the world's leading logistics providers.
+                            Road freight parcel delivery is the transfer andthe goods via road carrier.
+                        </p>
+                        <div class="social-footer">
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-tumblr" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-wordpress" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a href="javascripr:void(0);" class="px-2">
+                                <i class="fa fa-skype" aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
+                        <h4 class="fw-black my-4">Services</h4>
+                        <div class="d-flex flex-column">
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                All Services
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Air Freight
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Ocean Freight
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Road & Rail Freight
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Warehousing
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
+                        <h4 class="fw-black my-4">Useful links</h4>
+                        <div class="d-flex flex-column">
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Tracking
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                FAQ’s
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Company News
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Who We Are?
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Our History
+                            </a>
+                            <a class="mb-3">
+                                <i class="fa fa-check-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                Customer Care
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <h4 class="fw-black my-4">Contact Details</h4>
+                        <div class="d-flex flex-column">
+                            <div class="media">
+                                <i class="fa fa-map-marker mr-2 c-light-yellow mt-1" aria-hidden="true"></i>
+                                <div class="mt-0 f-robo mb-3">
+                                    <h6 class="mt-0 f-robo fw-black mb-4">TP Limted ( HEADQUARTERS )</h6>
+                                    0498 Brooklyn Street, 7th Cross United Kindom
+                                </div>
+                            </div>
+                            <a href="tel:0422-3457890" class="f-robo mb-3">
+                                <i class="fa fa-phone-square mr-2 c-light-yellow" aria-hidden="true"></i>
+                                <span class="fw-black">Phone -</span>
+                                <span class="c-light-yellow">0422-3457890, 0422-4569870</span>
+                            </a>
+                            <a href="javascript:void(0);" class="f-robo mb-3">
+                                <i class="fa fa-fax mr-2 c-light-yellow" aria-hidden="true"></i>
+                                <span class="fw-black">Fax -</span>
+                                <span class="">admin@Steelthemes.com</span>
+                            </a>
+                            <a href="javascript:void(0);" class="f-robo mb-3">
+                                <i class="fa fa-envelope mr-2 c-light-yellow" aria-hidden="true"></i>
+                                <span class="fw-black">Write us -</span>
+                                <span class="">Truckpress@Steelthemes.com</span>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <section class="bottom-footer back-dark-blue py-4">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-start mb-xl-0 mb-lg-0 mb-md-2 mb-sm-2 mb-2">
+                        <p class="f-robo fw-black mb-0">Created by Steelthemes © 2015 TruckPress Theme All rights
+                            reserved.</p>
+                    </div>
+                    <div
+                        class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-xl-end justify-content-lg-end justify-content-md-start justify-content-sm-start justify-content-start">
+                        <div class="">
+                            <a href="javascript:void(0);" class="f-robo fw-black mr-3">Privacy Policy</a>
+                            <a href="javascript:void(0);" class="f-robo fw-black mr-3">FAQ</a>
+                            <a href="javascript:void(0);" class="f-robo fw-black">Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button class="btn back-light-yellow" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Custom js -->
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
